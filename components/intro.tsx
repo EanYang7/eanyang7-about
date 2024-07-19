@@ -32,7 +32,7 @@ function Typewriter() {
   const [loopIndex, setLoopIndex] = React.useState(0);
 
   useEffect(() => {
-    let timer;
+    let timer: NodeJS.Timeout; // 明确指定类型
     const handleTyping = () => {
       const currentWord = textArray2[loopIndex % textArray2.length];
       if (!isDeleting) {
@@ -50,7 +50,9 @@ function Typewriter() {
     };
     timer = setTimeout(handleTyping, isDeleting ? deletingSpeed : typingSpeed);
 
-    return () => clearTimeout(timer);
+    return () => {
+      if (timer) clearTimeout(timer); // 清除定时器
+    };
   }, [displayText, isDeleting, loopIndex]);
 
   return (
