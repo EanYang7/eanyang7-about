@@ -2,10 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   basePath: "/about",
-
-  experimental: {
-    serverActions: true,
-  },
+  assetPrefix: "/about/",
 };
 
 module.exports = nextConfig;
