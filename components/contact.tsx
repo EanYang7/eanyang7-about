@@ -33,8 +33,8 @@ export default function Contact() {
 
       <p className="text-gray-700 -mt-6 dark:text-white/80">
         请直接通过
-        <a className="underline" href="mailto:yangqi7isme@163.com">
-          yangqi7isme@163.com
+        <a className="underline" href="mailto:eanyang77@163.com">
+          eanyang77@163.com
         </a>{" "}
         或者下面的表格联系我。
       </p>
