@@ -2,6 +2,8 @@
 const nextConfig = {
   basePath: "/about",
   images: {
+    loader: "default",
+    path: "/about/_next/image",
     remotePatterns: [
       {
         protocol: "https",
