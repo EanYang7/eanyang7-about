@@ -98,7 +98,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/Avatar.gif"
+              src="/about/Avatar.gif"
               alt="Ean portrait"
               width="192"
               height="192"
