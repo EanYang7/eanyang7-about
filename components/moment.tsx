@@ -4,7 +4,8 @@ import React from "react";
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
-import { Card, Collapse } from "antd";
+import Card from "antd/es/card";
+import Collapse from "antd/es/collapse";
 import Image from "next/image";
 
 const { Meta } = Card;
