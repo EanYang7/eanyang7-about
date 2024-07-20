@@ -34,5 +34,9 @@
   },
   "devDependencies": {
     "@types/react-vertical-timeline-component": "^3.3.3"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/EanYang7/eanyang7-about.git",
+  "author": "YQisme <1398757912@qq.com>",
+  "license": "MIT"
 }
