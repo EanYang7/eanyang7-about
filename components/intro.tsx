@@ -1,6 +1,5 @@
 "use client";
 
-import { useRouter } from "next/router";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
@@ -65,7 +64,6 @@ function Typewriter() {
 }
 
 export default function Intro() {
-  const { basePath } = useRouter();
   const { ref } = useSectionInView("主页", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
   // 添加字体显示的动态效果（轮播随机颜色）
@@ -100,7 +98,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src={`${basePath}/Avatar.gif`}
+              src="/about/Avatar.gif"
               alt="Ean portrait"
               width="192"
               height="192"

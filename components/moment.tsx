@@ -7,12 +7,10 @@ import { useSectionInView } from "@/lib/hooks";
 import Card from "antd/es/card";
 import Collapse from "antd/es/collapse";
 import Image from "next/image";
-import { useRouter } from "next/router";
 
 const { Meta } = Card;
 
 export default function Moment() {
-  const { basePath } = useRouter();
   const onChange = (key: string | string[]) => {
     console.log(key);
   };
@@ -26,7 +24,7 @@ export default function Moment() {
         cover={
           <Image
             alt="example"
-            src={`${basePath}/moments/Agent工程师.png`}
+            src="/about/moments/Agent工程师.png"
             layout="responsive"
             width={240}
             height={160}
@@ -41,7 +39,7 @@ export default function Moment() {
         cover={
           <Image
             alt="example"
-            src={`${basePath}/moments/InternLM-Camp-T2-TG966.png`}
+            src="/about/moments/InternLM-Camp-T2-TG966.png"
             layout="responsive"
             width={240}
             height={160}
@@ -59,7 +57,7 @@ export default function Moment() {
         cover={
           <Image
             alt="example"
-            src={`${basePath}/moments/百度灵镜杯智能体开发新人奖.jpg`}
+            src="/about/moments/百度灵镜杯智能体开发新人奖.jpg"
             layout="responsive"
             width={240}
             height={160}
@@ -74,7 +72,7 @@ export default function Moment() {
         cover={
           <Image
             alt="example"
-            src={`${basePath}/moments/阿里云天池AI大模型.png`}
+            src="/about/moments/阿里云天池AI大模型.png"
             layout="responsive"
             width={240}
             height={160}
@@ -89,7 +87,7 @@ export default function Moment() {
         cover={
           <Image
             alt="example"
-            src={`${basePath}/moments/Llama3.png`}
+            src="/about/moments/Llama3.png"
             layout="responsive"
             width={240}
             height={160}
@@ -104,7 +102,7 @@ export default function Moment() {
         cover={
           <Image
             alt="example"
-            src={`${basePath}/moments/大模型实战营.png`}
+            src="/about/moments/大模型实战营.png"
             layout="responsive"
             width={240}
             height={160}
@@ -119,7 +117,7 @@ export default function Moment() {
         cover={
           <Image
             alt="example"
-            src={`${basePath}/moments/Llama3优秀学员.png`}
+            src="/about/moments/Llama3优秀学员.png"
             layout="responsive"
             width={240}
             height={160}
@@ -138,7 +136,7 @@ export default function Moment() {
         cover={
           <Image
             alt="example"
-            src={`${basePath}/moments/志愿者证书.jpg`}
+            src="/about/moments/志愿者证书.jpg"
             layout="responsive"
             width={240}
             height={160}
@@ -153,7 +151,7 @@ export default function Moment() {
         cover={
           <Image
             alt="example"
-            src={`${basePath}/moments/献血.jpg`}
+            src="/about/moments/献血.jpg"
             layout="responsive"
             width={240}
             height={160}
@@ -171,7 +169,7 @@ export default function Moment() {
       cover={
         <Image
           alt="example"
-          src={`${basePath}/moments/麻将.jpg`}
+          src="/about/moments/麻将.jpg"
           layout="responsive"
           width={240}
           height={160}
