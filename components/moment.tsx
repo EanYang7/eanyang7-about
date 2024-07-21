@@ -151,33 +151,80 @@ export default function Moment() {
         cover={
           <Image
             alt="example"
-            src="/about/moments/献血.jpg"
+            src="/about/moments/最美献血人.jpg"
             layout="responsive"
             width={240}
             height={160}
           />
         }
       >
-        <Meta title="献血证" />
+        <Meta title="被学校评为“最美献血人”" />
       </Card>
     </div>
   );
   const CardContent3: React.FC = () => (
-    <Card
-      hoverable
-      style={{ width: 240 }}
-      cover={
-        <Image
-          alt="example"
-          src="/about/moments/麻将.jpg"
-          layout="responsive"
-          width={240}
-          height={160}
-        />
-      }
-    >
-      <Meta title="麻将" description="老家前50名🤣" />
-    </Card>
+    <div style={{ display: "flex", flexWrap: "wrap", gap: "16px" }}>
+      <Card
+        hoverable
+        style={{ width: 240 }}
+        cover={
+          <Image
+            alt="example"
+            src="/about/moments/优秀标兵.jpg"
+            layout="responsive"
+            width={240}
+            height={160}
+          />
+        }
+      >
+        <Meta title="优秀标兵" description="大学军训获得的称号" />
+      </Card>
+      <Card
+        hoverable
+        style={{ width: 240 }}
+        cover={
+          <Image
+            alt="example"
+            src="/about/moments/摄影奖.jpg"
+            layout="responsive"
+            width={240}
+            height={160}
+          />
+        }
+      >
+        <Meta title="优秀作品奖" description="青年摄影大赛" />
+      </Card>
+      <Card
+        hoverable
+        style={{ width: 240 }}
+        cover={
+          <Image
+            alt="example"
+            src="/about/moments/运动证书.jpg"
+            layout="responsive"
+            width={240}
+            height={160}
+          />
+        }
+      >
+        <Meta title="运动会荣誉证书" description="捡了个第八名🙂" />
+      </Card>
+      <Card
+        hoverable
+        style={{ width: 240 }}
+        cover={
+          <Image
+            alt="example"
+            src="/about/moments/麻将.jpg"
+            layout="responsive"
+            width={240}
+            height={160}
+          />
+        }
+      >
+        <Meta title="麻将" description="老家前50名🤣" />
+      </Card>
+    </div>
   );
   const collapseItems = [
     {
